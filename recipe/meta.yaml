@@ -1,6 +1,6 @@
 {% set name = "cuequivariance-jax" %}
 {% set version = "0.10.0" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - cuequivariance
     - einops
-    - jax >=0.8.1
+    - jax
     - packaging
 
 test:
