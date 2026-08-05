@@ -1,5 +1,5 @@
 {% set name = "cuequivariance-jax" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA/cuEquivariance/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f68f668ba1a3b3f490d585782c7cd9535a6dcaa08a6d0018f591fb1b762a3e90
+  sha256: bf2bafb3cf860ccfb15fc4b9ac5a6edc5f23dad5a3e526c6bc0cc60f8a384274
 
 build:
   noarch: python
