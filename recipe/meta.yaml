@@ -23,7 +23,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - cuequivariance
-    - jax
+    - einops
+    - jax >=0.8.1
     - packaging
 
 test:
