@@ -23,6 +23,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - cuequivariance
+    - einops
     - jax
     - packaging
 
